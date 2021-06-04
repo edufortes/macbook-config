@@ -1,0 +1,31 @@
+# Homebrew Taps to use
+homebrew_taps:
+  - homebrew/core
+  - homebrew/cask
+
+# Homebrew packeges to install
+homebrew_installed_packages:
+  - python@2
+  - python3
+  - mas
+  - ansible
+  - awscli
+  - htop
+  - terraform
+  - terragrunt
+  - tmux
+
+# Homebrew Casks Apps to install
+homebrew_cask_apps:
+  - google-chrome
+  - iterm2
+  - zoom
+  - mas
+  - aws-vault
+
+
+# Mac App Store Apps to install
+mas_installed_apps:
+  - { id: 441258766, name: "Bitwarden" }
+  - { id: 803453959, name: "Slack" }
+
